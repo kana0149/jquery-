@@ -1,0 +1,15 @@
+$color-primary : #00cc99;
+$color-sec : #00654b;
+$color-media-bg : #f6f6f6;
+$color-media-fb : #4460a0;
+$color-media-tw : #00aaec;
+$color-media-bd : #cccccc;
+$color-contact : #e12d80;
+$color-table-bd : #dddddd;
+$color-table-bg : #f7f7f7;
+
+@import 'reset';
+@import 'mix';
+@import 'base';
+@import 'utility';
+@import 'index';

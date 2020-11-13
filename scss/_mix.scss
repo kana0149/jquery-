@@ -1,0 +1,37 @@
+@mixin hide-text {
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@mixin item-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin d-f {
+    display: flex;
+    display: -ms-flexbox;
+}
+
+@mixin bg-img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@mixin bg-img-contain {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+@mixin text-img {
+    background-repeat: no-repeat;
+}
+
+@mixin text-big {
+    text-transform: uppercase;
+}

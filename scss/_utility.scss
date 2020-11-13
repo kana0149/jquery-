@@ -1,0 +1,22 @@
+.d-f {
+    @include d-f;
+}
+
+.d-b {
+    display: block;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ta-justify {
+    text-align: justify;
+}
+.m-0 {
+    margin: 0 auto;
+}

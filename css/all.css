@@ -1,0 +1,394 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/*讓img自適應寬，防止讓網頁破版*/
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  display: block;
+}
+
+/*cssreset-end*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.d-f {
+  display: flex;
+  display: -ms-flexbox;
+}
+
+.d-b {
+  display: block;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ta-justify {
+  text-align: justify;
+}
+
+.m-0 {
+  margin: 0 auto;
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 224px;
+  height: 50px;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.scrolltoTop {
+  position: fixed;
+  right: 50px;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #7c7c7c;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 2;
+  vertical-align: middle;
+  border-radius: 100%;
+}
+.scrolltoTop a {
+  color: #fff;
+}
+
+/*header*/
+/*media*/
+.media-bg {
+  background-color: #f6f6f6;
+}
+
+.media {
+  justify-content: flex-end;
+}
+.media li {
+  padding: 5px 0px;
+}
+.media a {
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+.media-fb-text {
+  color: #4460a0;
+  border-right: 1px solid #cccccc;
+}
+
+.media-fb-text:hover {
+  color: #7588b6;
+}
+
+.media-tw-text {
+  color: #00aaec;
+}
+
+.media-tw-text:hover {
+  color: #56cdfc;
+}
+
+/*media*/
+/*nav*/
+.logo-header {
+  background-image: url(../img/logo.png);
+}
+
+.menu li {
+  margin: 0px 12.5px;
+}
+.menu li:last-child {
+  margin: 0px 10px 0px 0px;
+}
+.menu a {
+  color: #00cc99;
+  text-decoration: none;
+  padding: 16px 10px;
+  border-bottom: 5px solid transparent;
+}
+.menu a:hover,
+.menu a.active {
+  border-bottom: 5px solid #00cc99;
+}
+
+.menu-course-item {
+  position: relative;
+}
+
+.menu-course-item-detail {
+  position: absolute;
+  top: 93px;
+  display: none;
+  z-index: 5;
+  background: #fff;
+}
+.menu-course-item-detail li {
+  display: block;
+  margin: 5px;
+}
+.menu-course-item-detail li:last-child {
+  margin: 5px;
+}
+.menu-course-item-detail a {
+  border-bottom: 0px solid transparent;
+  color: #333333;
+}
+.menu-course-item-detail a:hover {
+  border-bottom: 0px solid transparent;
+  background-color: #00cc99;
+  color: #fff;
+}
+
+/*nav*/
+/*banner*/
+.banner-img {
+  position: relative;
+}
+
+.banner-slogan {
+  width: 100%;
+  background-color: #333333;
+  opacity: 0.6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  color: #fff;
+  font-size: 2.25rem;
+  padding: 36px 0px 36px 20px;
+}
+
+/*swiper*/
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*swiper*/
+/*banner*/
+/*main-course*/
+.course {
+  margin-top: 60px;
+  padding: 0px 20px;
+  justify-content: space-between;
+}
+
+.course-item {
+  width: 30.3%;
+  /*border: 1px solid #000;*/
+  box-shadow: -1px 5px 10px -8px #333333;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+.course-img {
+  height: 160px;
+  line-height: 160px;
+}
+.course-img img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.course-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.course-jq-text {
+  list-style-type: disc;
+  text-indent: 20px;
+}
+
+/*main-compare*/
+.compare {
+  text-align: center;
+  margin-top: 60px;
+}
+.compare h2 {
+  font-size: 1.5625rem;
+}
+
+table {
+  margin: 30px auto;
+  text-align: justify;
+}
+table tr {
+  border-style: solid;
+  border-color: #dddddd;
+  border-width: 1px 0px 1px 0px;
+  line-height: 2.25;
+}
+table th {
+  font-weight: bold;
+}
+table td, table th {
+  width: 19.5%;
+  padding-left: 25px;
+}
+
+.table-item-bg {
+  background-color: #f7f7f7;
+}
+
+.table-text-sp {
+  color: #00cc99;
+}
+
+/*main-info*/
+.info {
+  margin-top: 60px;
+  background: linear-gradient(to bottom, #00654b, #009772);
+}
+.info .container {
+  padding: 32px 20px;
+}
+
+.info-title {
+  color: #fff;
+  font-size: 1.5rem;
+  /*line-height: 1.5;*/
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+form {
+  position: relative;
+}
+form textarea,
+form .form-item input {
+  width: 460px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  padding-left: 12px;
+}
+form textarea {
+  height: 245px;
+  margin-right: 40px;
+}
+form .form-item input {
+  line-height: 2.25;
+}
+form label {
+  color: #fff;
+}
+form input[type=button] {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  font-size: 0.875rem;
+  padding: 6px 20px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  background-color: #00cc99;
+  color: #fff;
+}
+form input[type=button]:hover {
+  background-color: #fff;
+  color: #00cc99;
+}
+form input::placeholder {
+  color: #000000;
+}
+
+/*footer*/
+.logo-footer {
+  background-image: url(../img/footerLogo.png);
+}
+
+.footer-pd {
+  padding: 28px 0px 50px 0px;
+}
+
+.contact a {
+  display: inline-block;
+  color: #e12d80;
+  text-decoration: none;
+}
+.contact a:hover {
+  color: #f36cab;
+}
